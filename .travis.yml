@@ -1,7 +1,7 @@
 language: ruby
 sudo: false
 env:
-  global: 
+  global:
     - JRUBY_OPTS=--2.0
   matrix:
     - DB=
@@ -15,6 +15,7 @@ rvm:
   - 2.1.2
   - 2.2.2
   - 2.3.0
+  - 2.3.1
   - jruby-19mode
 gemfile:
   - Gemfile

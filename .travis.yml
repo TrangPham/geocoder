@@ -12,7 +12,8 @@ env:
 rvm:
   - 2.2.2
   - 2.3.0
-  - jruby-19mode
+  - 2.4.0
+  - jruby-9.0.1.0
 gemfile:
   - Gemfile
   - gemfiles/Gemfile.ruby1.9.3
